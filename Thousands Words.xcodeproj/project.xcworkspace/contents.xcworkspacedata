@@ -2,6 +2,24 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../AlbumTableViewController.h">
+   </FileRef>
+   <FileRef
+      location = "group:../AlbumTableViewController.m">
+   </FileRef>
+   <FileRef
+      location = "group:../Photos.m">
+   </FileRef>
+   <FileRef
+      location = "group:../Photos.h">
+   </FileRef>
+   <FileRef
+      location = "group:../Album.h">
+   </FileRef>
+   <FileRef
+      location = "group:../Album.m">
+   </FileRef>
+   <FileRef
       location = "self:Thousands Words.xcodeproj">
    </FileRef>
 </Workspace>

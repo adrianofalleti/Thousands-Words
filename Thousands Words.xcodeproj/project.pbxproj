@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF5879351BA214BC008ACDDA /* FilterCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5879341BA214BC008ACDDA /* FilterCollectionViewController.m */; };
+		FF591EF91BA16A1B0061D0D6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF591EF81BA16A1B0061D0D6 /* DetailViewController.m */; };
 		FFE19D0E1B9F275C0091D0B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE19D0D1B9F275C0091D0B8 /* main.m */; };
 		FFE19D111B9F275C0091D0B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE19D101B9F275C0091D0B8 /* AppDelegate.m */; };
 		FFE19D141B9F275C0091D0B8 /* Thousands_Words.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FFE19D121B9F275C0091D0B8 /* Thousands_Words.xcdatamodeld */; };
-		FFE19D171B9F275C0091D0B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE19D161B9F275C0091D0B8 /* ViewController.m */; };
 		FFE19D1A1B9F275C0091D0B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE19D181B9F275C0091D0B8 /* Main.storyboard */; };
 		FFE19D1C1B9F275C0091D0B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE19D1B1B9F275C0091D0B8 /* Images.xcassets */; };
 		FFE19D1F1B9F275C0091D0B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFE19D1D1B9F275C0091D0B8 /* LaunchScreen.xib */; };
 		FFE19D2B1B9F275C0091D0B8 /* Thousands_WordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE19D2A1B9F275C0091D0B8 /* Thousands_WordsTests.m */; };
+		FFE19D361B9F27D70091D0B8 /* Photos.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE19D351B9F27D70091D0B8 /* Photos.m */; };
+		FFE19D391B9F27EB0091D0B8 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE19D381B9F27EB0091D0B8 /* Album.m */; };
+		FFE19D3C1B9F28AD0091D0B8 /* AlbumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE19D3B1B9F28AD0091D0B8 /* AlbumTableViewController.m */; };
+		FFE19D3F1B9F28D10091D0B8 /* FotoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE19D3E1B9F28D10091D0B8 /* FotoCollectionViewController.m */; };
+		FFE19D421B9F2BB60091D0B8 /* CreatoreDiContesti.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE19D411B9F2BB60091D0B8 /* CreatoreDiContesti.m */; };
+		FFE19D451B9F31630091D0B8 /* Trasformatore.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE19D441B9F31630091D0B8 /* Trasformatore.m */; };
+		FFE19D481B9F32B80091D0B8 /* FotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE19D471B9F32B80091D0B8 /* FotoCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +36,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF5879331BA214BC008ACDDA /* FilterCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterCollectionViewController.h; sourceTree = "<group>"; };
+		FF5879341BA214BC008ACDDA /* FilterCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterCollectionViewController.m; sourceTree = "<group>"; };
+		FF591EF71BA16A1B0061D0D6 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		FF591EF81BA16A1B0061D0D6 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		FFE19D081B9F275C0091D0B8 /* Thousands Words.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thousands Words.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE19D0C1B9F275C0091D0B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFE19D0D1B9F275C0091D0B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FFE19D0F1B9F275C0091D0B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FFE19D101B9F275C0091D0B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FFE19D131B9F275C0091D0B8 /* Thousands_Words.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Thousands_Words.xcdatamodel; sourceTree = "<group>"; };
-		FFE19D151B9F275C0091D0B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FFE19D161B9F275C0091D0B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FFE19D191B9F275C0091D0B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFE19D1B1B9F275C0091D0B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FFE19D1E1B9F275C0091D0B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FFE19D241B9F275C0091D0B8 /* Thousands WordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Thousands WordsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE19D291B9F275C0091D0B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFE19D2A1B9F275C0091D0B8 /* Thousands_WordsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Thousands_WordsTests.m; sourceTree = "<group>"; };
+		FFE19D341B9F27D70091D0B8 /* Photos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Photos.h; path = "Thousands Words.xcodeproj/../Photos.h"; sourceTree = SOURCE_ROOT; };
+		FFE19D351B9F27D70091D0B8 /* Photos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Photos.m; path = "Thousands Words.xcodeproj/../Photos.m"; sourceTree = SOURCE_ROOT; };
+		FFE19D371B9F27E50091D0B8 /* Album.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Album.h; path = "Thousands Words.xcodeproj/../Album.h"; sourceTree = SOURCE_ROOT; };
+		FFE19D381B9F27EB0091D0B8 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Album.m; path = "Thousands Words.xcodeproj/../Album.m"; sourceTree = SOURCE_ROOT; };
+		FFE19D3A1B9F28AD0091D0B8 /* AlbumTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlbumTableViewController.h; path = "Thousands Words.xcodeproj/../AlbumTableViewController.h"; sourceTree = SOURCE_ROOT; };
+		FFE19D3B1B9F28AD0091D0B8 /* AlbumTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlbumTableViewController.m; path = "Thousands Words.xcodeproj/../AlbumTableViewController.m"; sourceTree = SOURCE_ROOT; };
+		FFE19D3D1B9F28D10091D0B8 /* FotoCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FotoCollectionViewController.h; sourceTree = "<group>"; };
+		FFE19D3E1B9F28D10091D0B8 /* FotoCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FotoCollectionViewController.m; sourceTree = "<group>"; };
+		FFE19D401B9F2BB60091D0B8 /* CreatoreDiContesti.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatoreDiContesti.h; sourceTree = "<group>"; };
+		FFE19D411B9F2BB60091D0B8 /* CreatoreDiContesti.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatoreDiContesti.m; sourceTree = "<group>"; };
+		FFE19D431B9F31630091D0B8 /* Trasformatore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trasformatore.h; sourceTree = "<group>"; };
+		FFE19D441B9F31630091D0B8 /* Trasformatore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trasformatore.m; sourceTree = "<group>"; };
+		FFE19D461B9F32B80091D0B8 /* FotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FotoCollectionViewCell.h; sourceTree = "<group>"; };
+		FFE19D471B9F32B80091D0B8 /* FotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FotoCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +107,27 @@
 		FFE19D0A1B9F275C0091D0B8 /* Thousands Words */ = {
 			isa = PBXGroup;
 			children = (
+				FFE19D381B9F27EB0091D0B8 /* Album.m */,
+				FFE19D371B9F27E50091D0B8 /* Album.h */,
 				FFE19D0F1B9F275C0091D0B8 /* AppDelegate.h */,
+				FFE19D341B9F27D70091D0B8 /* Photos.h */,
+				FFE19D3D1B9F28D10091D0B8 /* FotoCollectionViewController.h */,
+				FFE19D3E1B9F28D10091D0B8 /* FotoCollectionViewController.m */,
+				FFE19D461B9F32B80091D0B8 /* FotoCollectionViewCell.h */,
+				FFE19D471B9F32B80091D0B8 /* FotoCollectionViewCell.m */,
+				FFE19D431B9F31630091D0B8 /* Trasformatore.h */,
+				FFE19D441B9F31630091D0B8 /* Trasformatore.m */,
+				FFE19D3A1B9F28AD0091D0B8 /* AlbumTableViewController.h */,
+				FFE19D3B1B9F28AD0091D0B8 /* AlbumTableViewController.m */,
+				FFE19D401B9F2BB60091D0B8 /* CreatoreDiContesti.h */,
+				FFE19D411B9F2BB60091D0B8 /* CreatoreDiContesti.m */,
+				FFE19D351B9F27D70091D0B8 /* Photos.m */,
 				FFE19D101B9F275C0091D0B8 /* AppDelegate.m */,
-				FFE19D151B9F275C0091D0B8 /* ViewController.h */,
-				FFE19D161B9F275C0091D0B8 /* ViewController.m */,
 				FFE19D181B9F275C0091D0B8 /* Main.storyboard */,
+				FF5879331BA214BC008ACDDA /* FilterCollectionViewController.h */,
+				FF5879341BA214BC008ACDDA /* FilterCollectionViewController.m */,
+				FF591EF71BA16A1B0061D0D6 /* DetailViewController.h */,
+				FF591EF81BA16A1B0061D0D6 /* DetailViewController.m */,
 				FFE19D1B1B9F275C0091D0B8 /* Images.xcassets */,
 				FFE19D1D1B9F275C0091D0B8 /* LaunchScreen.xib */,
 				FFE19D121B9F275C0091D0B8 /* Thousands_Words.xcdatamodeld */,
@@ -222,10 +262,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE19D481B9F32B80091D0B8 /* FotoCollectionViewCell.m in Sources */,
 				FFE19D111B9F275C0091D0B8 /* AppDelegate.m in Sources */,
 				FFE19D0E1B9F275C0091D0B8 /* main.m in Sources */,
-				FFE19D171B9F275C0091D0B8 /* ViewController.m in Sources */,
+				FFE19D421B9F2BB60091D0B8 /* CreatoreDiContesti.m in Sources */,
+				FF5879351BA214BC008ACDDA /* FilterCollectionViewController.m in Sources */,
+				FFE19D361B9F27D70091D0B8 /* Photos.m in Sources */,
+				FFE19D391B9F27EB0091D0B8 /* Album.m in Sources */,
+				FFE19D3F1B9F28D10091D0B8 /* FotoCollectionViewController.m in Sources */,
+				FF591EF91BA16A1B0061D0D6 /* DetailViewController.m in Sources */,
 				FFE19D141B9F275C0091D0B8 /* Thousands_Words.xcdatamodeld in Sources */,
+				FFE19D3C1B9F28AD0091D0B8 /* AlbumTableViewController.m in Sources */,
+				FFE19D451B9F31630091D0B8 /* Trasformatore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +468,7 @@
 				FFE19D301B9F275C0091D0B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFE19D311B9F275C0091D0B8 /* Build configuration list for PBXNativeTarget "Thousands WordsTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +477,7 @@
 				FFE19D331B9F275C0091D0B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
